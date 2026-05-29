@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" sizes="16x16" href="images/icons/myfacefavicon.jpg">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="film.html">Film</a>
+    <a href="art.html">Art</a>
+    <a href="dj.html">DJ</a>
+    <a href="about.html">About</a>
+</nav>
+
+<main class="about-page">
+
+    <div class="about-container">
+
+        <div class="headshots">
+            <img src="images/headshots/rheadshot2024-2.jpg" alt="Edwin1">
+            <img src="images/headshots/rheadshot2024-7.jpg" alt="Edwin2">
+        </div>
+
+        <div class="bio">
+            <p>
+                Edwin Loughry is a graduate from Middle Tennessee State University with a Bachelor of Science in Video and Film Production and a minor in art. He is a writer, director, cinematographer, painter, and DJ currently based in Atlanta.
+            </p>
+        </div>
+
+        <div id="email"></div>
+
+        <div class="biosocials">
+            <a href="https://www.youtube.com/@edwinl1242" target="_blank">
+                <img src="images/icons/you.png" alt="YouTube">
+            </a>
+            <a href="http://www.linkedin.com/in/edwinloughry" target="_blank">
+                <img src="images/icons/in.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/4ed.art/" target="_blank">
+                <img src="images/icons/ig.png" alt="Instagram">
+            </a>
+            <a href="https://vimeo.com/user190924150" target="_blank">
+                <img src="images/icons/vim.png" alt="Vimeo">
+            </a>
+        </div>
+
+    </div>
+
+</main>
+
+<script>
+  const email = ["ecl4", "live.com"].join("@");
+
+  document.getElementById("email").innerHTML = `
+    <a class="email-button" href="mailto:${email}">
+      Contact
+    </a>
+  `;
+</script>
+
+</body>
+</html>

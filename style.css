@@ -35,6 +35,40 @@ img {
     gap: 25px;
 }
 
+.about-page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+.about-container {
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.about-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.headshots {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.headshots img {
+    width: 30%;
+    height: auto;
+}
+
+.bio {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #d0d0d0;
+}
+
 .title-group h1 {
     margin: 0;
     font-size: 36px;
@@ -92,6 +126,23 @@ img {
 }
 
 .socials a:hover img {
+    opacity: 0.8;
+}
+
+.biosocials {
+    display: flex;
+    gap: 6px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.biosocials a img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.biosocials a:hover img {
     opacity: 0.8;
 }
 
@@ -175,10 +226,14 @@ img {
     display: block;
 }
 
+#email {
+    margin-bottom: 15px;
+}
+
 .email-button {
     padding: 10px 14px;
     color: aqua;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 @media (max-width: 768px) {
@@ -197,6 +252,11 @@ img {
         width: 100%;
         max-width: 260px;
         margin: 0 auto;
+    }
+
+
+    .bio {
+    max-width: 600px;
     }
 
     .content {
