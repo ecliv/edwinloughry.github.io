@@ -34,7 +34,7 @@ body {
 }
 
 .title-group p {
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 0px;
     font-size: 14px;
     color: #d0d0d0;
 }
@@ -79,4 +79,36 @@ body {
 
 .socials a:hover img {
     opacity: 0.8;
+}
+
+.film-page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 800px;
+}
+
+.video-list iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
 }
