@@ -230,6 +230,10 @@ img {
     margin-bottom: 15px;
 }
 
+#party-art {
+    width: 50%;
+}
+
 .email-button {
     padding: 10px 14px;
     color: aqua;
